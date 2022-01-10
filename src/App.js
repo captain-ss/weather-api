@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   const [city, setCity] = useState();
-  const [weather, setWeather] = useState();
+  // const [weather, setWeather] = useState();
   const [show, setShow] = useState(false)
 
   const fetchWeather = async (e) => {
