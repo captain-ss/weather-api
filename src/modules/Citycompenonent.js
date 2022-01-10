@@ -14,7 +14,7 @@ const Citycompenonent = ({ setCity, fetchWeather }) => {
       <img src="icons/perfect-day.svg" alt="not find" style={perfectdayimage} />
       <div className="chooselabel">Find weather of your city</div>
       <form type="submit" onSubmit={(e)=>fetchWeather(e)}>
-        <input
+        <input 
           placeholder="Search city"
           className=" form-input"
           onChange={(e) => setCity(e.target.value)}
@@ -28,3 +28,4 @@ const Citycompenonent = ({ setCity, fetchWeather }) => {
 };
 
 export default Citycompenonent;
+  
